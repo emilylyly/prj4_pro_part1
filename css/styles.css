@@ -12,10 +12,22 @@ body {
 	background-color:  #c27362;
 }
 
+h1 {
+
+	font-family: 'Didact Gothic', sans-serif;
+	
+	font-size: 60px;
+	
+	font-weight: bold;
+	
+	text-transform: uppercase;
+	
+	text-shadow: 5px 5px #fdeeda;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #c27362;
+    background-color: #de8773;
 }
 
 .resume-main {
@@ -51,5 +63,34 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
-	color:#898C23;
+
+}
+
+.bg-green {
+	background-color: #A2A62D !important;
+}
+
+.my-border {
+	border-color: #c27362 !important;
+}
+
+a:link {
+color: black;
+		
+		}
+		
+		a:visited {
+		
+		color: #c27362;
+		
+		}
+		
+		a:hover {
+		
+		color: black;
+		
+		background-color: #A2A62D;
+		
+		}
+
 }
